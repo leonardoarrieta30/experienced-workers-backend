@@ -1,11 +1,13 @@
-package com.concyssa.experiencedworkers.recognition.resource;
+package com.concyssa.experiencedworkers.recognition.resource.WorkerResource;
 
 
+import com.concyssa.experiencedworkers.recognition.domain.model.entity.Nurse;
 import lombok.*;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
 
@@ -25,7 +27,6 @@ public class CreateWorkerResource {
 
     @Size(max = 500)
     private String description;
-
 
     private int likes;
 

@@ -9,4 +9,10 @@ public class MappingConfiguration {
     public WorkerMapper workerMapper(){
         return new WorkerMapper();
     }
+
+    @Bean
+    public NurseMapper nurseMapper(){
+        return new NurseMapper();
+    }
+
 }

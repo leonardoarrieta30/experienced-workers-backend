@@ -30,6 +30,8 @@ public class Worker extends AuditModel {
     @Size(max = 500)
     private String description;
 
+//    @OneToOne
+//    private Nurse nurse;
 
     private int likes;
 

@@ -2,9 +2,9 @@ package com.concyssa.experiencedworkers.recognition.api.rest;
 
 import com.concyssa.experiencedworkers.recognition.domain.service.WorkerService;
 import com.concyssa.experiencedworkers.recognition.mapping.WorkerMapper;
-import com.concyssa.experiencedworkers.recognition.resource.CreateWorkerResource;
-import com.concyssa.experiencedworkers.recognition.resource.UpdateWorkerResource;
-import com.concyssa.experiencedworkers.recognition.resource.WorkerResource;
+import com.concyssa.experiencedworkers.recognition.resource.WorkerResource.CreateWorkerResource;
+import com.concyssa.experiencedworkers.recognition.resource.WorkerResource.UpdateWorkerResource;
+import com.concyssa.experiencedworkers.recognition.resource.WorkerResource.WorkerResource;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
